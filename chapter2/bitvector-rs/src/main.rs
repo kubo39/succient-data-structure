@@ -18,7 +18,7 @@ fn select1(x: usize, i: usize) -> u32 {
 }
 
 fn main() {
-    let mut x = 0b00110011_00110011_00110011_00110011;
+    let x = 0b00110011_00110011_00110011_00110011;
 
     for i in 1..=(mem::size_of::<usize>()) {
         println!("{} {}", i, rank1(x, i));
