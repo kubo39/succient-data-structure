@@ -1,0 +1,17 @@
+.dub
+docs.json
+__dummy.html
+docs/
+bitvector-d.so
+bitvector-d.dylib
+bitvector-d.dll
+bitvector-d.a
+bitvector-d.lib
+bitvector-d-test-*
+*.exe
+*.o
+*.obj
+*.lst
+*.a
+.gdb_history
+bitvector

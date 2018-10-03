@@ -1,0 +1,12 @@
+{
+	"name": "bitvector",
+	"authors": [
+		"Hiroki Noda"
+	],
+	"lflags": ["-L./"],
+	"libs": ["select1"],
+	"preBuildCommands": ["nasm -f elf64 -o libselect1.a select1.asm"],
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2018, Hiroki Noda",
+	"license": "BSL-1.0"
+}
