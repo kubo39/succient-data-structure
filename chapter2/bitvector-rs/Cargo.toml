@@ -1,0 +1,7 @@
+[package]
+name = "bitvector-rs"
+version = "0.1.0"
+authors = ["Hiroki Noda <kubo39@gmail.com>"]
+
+[dependencies]
+bitwise = "0.1"
