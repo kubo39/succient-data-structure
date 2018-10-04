@@ -1,0 +1,15 @@
+.dub
+docs.json
+__dummy.html
+docs/
+suffixarray.so
+suffixarray.dylib
+suffixarray.dll
+suffixarray.a
+suffixarray.lib
+suffixarray-test-*
+*.exe
+*.o
+*.obj
+*.lst
+suffixarray
